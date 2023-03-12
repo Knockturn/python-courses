@@ -1,6 +1,6 @@
 # https://www.youtube.com/watch?v=rfscVS0vtbw&t=11561s
 
-# Reading Files
+# Reading Files (remember to use the correct path in terminal or it will not find the file. Absolute path is recommended)
 
 # "r" - Read - Default value, so can be omitted. Opens a file for reading, error if the file does not exist
 # "a" - Append - Opens a file for appending, creates the file if it does not exist
@@ -18,7 +18,7 @@
 
 
 # Open a file
-myFile = open("assets/employees.txt", "r")
+myFile = open("assets/employees.txt", "r") # Absolute path here would be safer!
 print(myFile.readable()) # Returns true if the file is readable
 #print(myFile.read()) # Reads the entire file
 #print(myFile.readline()) # Reads the first line of the file
