@@ -2,4 +2,5 @@ Jim - Salesman
 Dwi - Salesman
 Pam - Receptionist
 Michael - Manager
-Oscar - Accountant
+Kelly - Customer Service
+Toby - Human Resources
