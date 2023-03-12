@@ -1,6 +1,6 @@
 # https://www.youtube.com/watch?v=rfscVS0vtbw&t=9680s
 
-# Exponent Function (2 ** 3 = 2 * 2 * 2) (2 to the power of 3)
+# Exponent Function (power function) (2 ** 3 = 2 * 2 * 2) (2 to the power of 3)
 
 print(2 ** 3) # 2 to the power of 3 (2 * 2 * 2)
 
