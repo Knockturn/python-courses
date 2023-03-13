@@ -8,6 +8,8 @@
 # External modules need to be installed using pip. Ex: https://python-docx.readthedocs.io/en/latest/user/install.html#install -> pip install python-docx
 # pip is a package manager for python. It allows you to install and manage external packages that are useful to your projects
 # Best practice is to create a virtual environment for each project. This is a folder that contains all the dependencies for a specific project
+# pip install module_name -> installs a module
+# pip uninstall module_name -> uninstalls a module
 
 # "python -m venv env_beginner" -> creates a virtual environment called env_beginner (windows)
 # "python3 -m venv env_beginner" -> creates a virtual environment called env_beginner (macOS)
@@ -15,7 +17,14 @@
 # "env_beginner\Scripts\activate" -> activates the virtual environment (windows)
 # "source env_beginner/bin/activate" -> activates the virtual environment (macOS)
 
+#----------------------------------------#
+#----------------------------------------#
+
 from assets import useful_tools # This is how you import a module from another file in a subfolder
 # import useful_tools # This is how you import a module from another file in the same folder
 
+# import docx # This is how you import a module from an external package (pip install python-docx)
+
 print(f"Random dice roll: {useful_tools.roll_dice(10)}")
+
+#docx.Document() # This is how you use a module from an external package
