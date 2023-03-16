@@ -34,3 +34,12 @@ print(c)
 
 d = mylist[::2] # return a new list with the items from index 0 to the end with a step of 2
 print(d)
+
+# unpacking
+a, b, c, d, e = mylist # you can unpack a list into variables
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+# Remember that the order matters when unpacking, as well as the number of variables
