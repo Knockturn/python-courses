@@ -2,6 +2,7 @@
 from collections import Counter, namedtuple, OrderedDict, defaultdict, deque
 
 # Counter
+# Useful for counting the number of times something appears in a list
 print("Counter")
 a = "aaaaabbbbbbcccccc"
 my_counter = Counter(a) # Counts the number of each letter in the string. Key Value pair
@@ -13,6 +14,7 @@ print(my_counter.most_common(1)[0][0]) # Returns the most common letter as a str
 # my_counter.elements() # Returns an iterator that returns each element in the counter
 
 # namedtuple, created a class with attributes
+# Useful for creating classes with attributes
 print("Named Tuple")
 Point = namedtuple('Point', 'x,y') # Creates a class called Point with x and y attributes. Comma or space separated
 pt = Point(1, -4)
@@ -20,6 +22,7 @@ print(pt)
 print(pt.x, pt.y)
 
 # OrderedDict, keeps the order of the keys. In python 3.7+ dictionaries are ordered by default
+# Useful for keeping the order of the keys in older versions of python
 print("Ordered Dict")
 ordered_dict = OrderedDict()
 ordered_dict['a'] = 1 # Adds a key value pair
@@ -30,6 +33,7 @@ ordered_dict['e'] = 5
 print(ordered_dict) # Prints the dictionary in the order the keys were added
 
 # defaultdict, sets a default value for a key if it doesn't exist
+# Useful for setting a default value for a key
 print("Default Dict")
 d = defaultdict(int) # Sets the default value to 0
 d['a'] = 1
@@ -39,6 +43,7 @@ print(d['b'])
 print(d['c']) # Returns 0 because it doesn't exist
 
 # deque, double ended queue. Add and remove from both ends
+# Useful for adding and removing from both ends
 print("Deque")
 d = deque()
 d.append(1) # Adds to the right
