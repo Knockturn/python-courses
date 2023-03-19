@@ -19,9 +19,14 @@ print(b)
 
 c = random.choice([1, 2, 3, 4, 5]) # Returns a random element from a list
 print(c)
-
+# random.shuffle([1, 2, 3, 4, 5]) # Shuffles a list
+# random.sample([1, 2, 3, 4, 5], 3) # Returns a list of 3 random elements from a list
+# seed() # Sets the seed for the random number generator
+random.seed(1) # Sets the seed for the random number generator
+# Above makes the random numbers predictable
 
 #----------------------------------------#
+# Cryptographically secure random numbers, used for passwords, security keys, etc.
 print("Secrets Module")
 d = secrets.randbelow(10) # Returns a random integer between 0 and 9
 print(d)
@@ -33,6 +38,7 @@ f = secrets.choice([1, 2, 3, 4, 5]) # Returns a random element from a list
 print(f)
 
 #----------------------------------------#
+# Random numbers for numpy arrays, used for machine learning
 print("Numpy Random Module")
-g = np.random.randint(1, 10) # Returns a random integer between 1 and 9
+g = np.random.rand(3, 3) # Returns a 3x3 array of random floats between 0 and 1
 print(g)
