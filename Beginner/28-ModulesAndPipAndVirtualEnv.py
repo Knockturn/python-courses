@@ -12,10 +12,10 @@
 # pip uninstall module_name -> uninstalls a module
 
 # "python -m venv env_beginner" -> creates a virtual environment called env_beginner (windows)
-# "python3 -m venv env_beginner" -> creates a virtual environment called env_beginner (macOS)
+# "python3 -m venv env_beginner" -> creates a virtual environment called env_beginner (macOS) !!!!!!!!
 
 # "env_beginner\Scripts\activate" -> activates the virtual environment (windows)
-# "source env_beginner/bin/activate" -> activates the virtual environment (macOS)
+# "source env_beginner/bin/activate" -> activates the virtual environment (macOS) !!!!!!!
 
 #----------------------------------------#
 #----------------------------------------#
